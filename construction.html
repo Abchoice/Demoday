@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Website</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">ABchoice</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <main>
+
+            <style>
+                .carousel-item img {
+                    height: 300px;
+                    object-fit:cover;
+                }
+
+                .carousel-slide{
+                  position: absolute;
+                }
+            </style>
+
+            <div class="container mt-5" >
+                <div class="row">
+                    <div class="col-md-6 d-flex">
+                        <div class="text-side" style="padding: 15px;width: 80%;">
+                            <h1 class="display-4" style="color:#343a40; margin-bottom: 20px;color: #ffd700;">Welome to ABchoice Construction site
+                            </h1>
+                            <p class="lead" style="margin-bottom:20px;">we provide the best services</p>
+                        </div>
+                    </div>
+                    <!-- left-carousel -->
+                     <div class="col">
+                        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./pictures/construction site.jpg" alt="" class="d-block w-100">
+                                </div>
+
+                                <div class="carousel-item ">
+                                    <img src="./pictures/construction site.jpg" alt="" class="d-block w-100">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="./pictures/construction site.jpg" alt=""class="d-block w-100">
+                                </div>
+                        </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>                            
+                        </div>
+                     </div>
+                </div>
+            </div>
+
+            <style>
+                .position-relative {
+                    position:relative;
+                }
+
+                .image-one {
+                    width: 90%;
+                    border-radius: 10px;
+                    height: 400px;
+                    margin-left: 20px;
+                    
+                }
+
+                .image-two {
+                    top:30px;
+                    left: 30px;
+                    z-index:10;
+                    margin-left: 15px;
+                    width: 90%;
+                    height:320px ;
+                
+                }
+
+                .text-side {
+                    padding-left: 40px;
+                }
+
+                .text-side h1 {
+                    color:#343a40;
+                    margin-bottom: 10px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 120%;
+                  
+                }
+
+                .text-side p {
+                    margin-bottom: 20px;
+                    color: #6c757d;
+                }
+
+                button {
+                    padding: 10px 20px;
+                    font-size: 18px;
+                }
+
+                
+            </style>
+
+            <section>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-6 position-relative d-flex">
+                            <img src="./pictures/construct smileyy.jpg"  alt="" class="img-fluid image-one">
+                            <img src="./pictures/construct smileyyy.jpg" alt="" class="img-fluid image-two position-absolute">
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="text-side">
+                                <h1 class="display-5 fw-bold">Discover Amazing Places</h1>
+                                <p class="lead">Unlock the potential of extraordinary spaces with us. Our team of experts is dedicated to transforming your vision into reality by blending innovative design, exceptional craftmanship, and cutting-edge construction techniques. Whether you're dreaming of modern architectural wonders or traditional, timeless structures,we create spaces that inspire and captivate. From concept to completion, we build more than just structures - we build experiences that bring your imagination to life.</p>
+                                <button type="button" class="btn btn-lg" style="background-color: #ffd700;">Explore Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <style>
+                .immg {
+                    border: 1px solid none;
+                    background-color: #343a40;
+                    color: white;
+                    border-radius: 20px;
+                    padding-top: 5px;
+                    height: 300px;
+                }
+                .immg:hover {
+                    color:#343a40;
+                    background-color: white;
+                }
+
+                .imgg {
+                    border: 1px solid none;
+                    color: black;
+                    background-color: white;
+                    border-radius: 20px;
+                    padding-top: 5px;
+                    height:300px;
+                }
+                .imgg:hover{
+                    color:white;
+                    background-color: #343a40;
+                }
+                
+                .tb {
+                    margin-top: 6%;
+                }
+            </style>
+
+            <div class="container" style="background-color: #ebe7e7; width: 80%;height:360px;">
+                <div class="row d-flex tb" style="padding-top: 5%;">
+                    <div class="col-3 text-center">
+                        <div class="imgg">
+                        <p class="text-center mt-5"><i class="bi bi-arrow-right-circle text-white" style="padding: 10px;border-radius: 50px;background-color: #ffd700;"></i></p>
+                        <h1 style="font-size: 23px;">Design-Build</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, maxime.</p>
+                        </div>
+                    </div>
+                
+                   
+
+                    <div class="col-3 text-center ">
+                        <div class="immg">
+                        <p class="text-center mt-5"><i class="bi bi-arrow-right-circle text-grey" style="padding: 10px;border-radius: 50px;background-color: #ffd700;"></i></p>
+                        <h1 style="font-size: 23px;">Renovation/modeling</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, maxime.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <div class="imgg">
+                        <p class="text-center mt-5"><i class="bi bi-arrow-right-circle text-white" style="padding: 10px;border-radius: 50px;background-color: #ffd700;"></i></p>
+                        <h1 style="font-size: 23px;">Construction Mgt</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, maxime.</p>
+                    </div>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <div class="immg">
+                        <p class="text-center mt-5"><i class="bi bi-arrow-right-circle text-white" style="padding: 10px;border-radius: 50px;background-color: #ffd700;"></i></p>
+                        <h1 style="font-size: 23px;">Team Profiles</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, maxime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          </main>
+
+          <style>
+            .constructt {
+                width: 110%;
+                height: 70vh;
+            }
+
+            .ic {
+              width: 90%;
+              margin-left: 105px;
+            }
+
+            .icc {
+              margin-left: 100px;
+              width: 100%;
+            }
+          </style>
+          <section>
+            <div class="container mt-5" style="margin-left: 28px;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./pictures/construct smiley.png" alt="" class="constructt">
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="display-5 fw-bold icc">Ready to work for us</h1>
+                        <div class="accordion ic" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" style="background-color: #ebe7e7;border-color: #ebe7e7;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Our Services
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" style="background-color: #ebe7e7;border-color: #ebe7e7;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Construct
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" style="background-color: #ebe7e7;border-color: #ebe7e7;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Restructuring
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
+
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <style>
+            .vh {
+                width: 20%;
+                height: 50px;
+                margin-top: -10px; 
+            }
+
+            .gram {
+                width: 128%;
+                margin-top: 12vh;
+                margin-left: -1vh;
+            }
+
+            .gramm {
+                margin-left: 10px;
+            }
+          </style>
+          <section>
+            <div class="container mt-5" >
+                <div class="row" style="box-shadow: 0 4px 12px;margin-left: 20px;width: 96%;">
+                    <div class="col-md-4 d-grid" style="background-color: #ffd700;height: 40vh;margin-top: 20px;
+                    border-top-right-radius: 30vh;border-bottom-left-radius: 30vh;">
+                        <img src="./pictures/d-con.jpg" alt="" class="vh rounded-circle" style="margin-left: 20vh;">
+                        
+                        <img src="./pictures/d-con1.jpg" alt="" class="vh rounded-circle" style="margin-left: 35vh;" >
+        
+                        <img src="./pictures/d-con2.jpg" alt="" class="vh rounded-circle" style="margin-left: 5vh;">
+                        
+                        <img src="./pictures/d-con3.jpg" alt="" class="vh rounded-circle" style="margin-left: 21vh;">
+                        
+                        <img src="./pictures/d-con4.jpg" alt="" class="vh rounded-circle" style="margin-left: 5vh;">
+
+                        <img src="./pictures/d-con5.jpg" alt="" class="vh rounded-circle" style="margin-left: 25vh;">
+                        
+                    </div>
+
+                    <div class="col-md-4">
+                        <p class="lead gram">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ullam delectus reiciendis, possimus assumenda officia architecto necessitatibus eveniet.</p>
+                        <div>
+                        <img src="./pictures/images (2).jpg" alt="" class="vh rounded-circle gramm"><span style="margin-left: 10px;color: #ffd700;">
+                        ABchoice
+                        </span>
+                        <p style="margin-left: 14vh;margin-top: -3vh;">Author</p>
+                        
+                    
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-grid" style="background-color: #ffd700;height: 40vh;margin-top: 20px;
+                    border-top-left-radius: 30vh;border-bottom-right-radius: 30vh;">
+                    
+                        <img src="./pictures/d-con5.jpg" alt="" class="vh rounded-circle" style="margin-left: 35vh;">
+                        
+                        <img src="./pictures/d-con6.jpg" alt="" class="vh rounded-circle" style="margin-left: 15vh;" >
+        
+                        <img src="./pictures/d-con7.jpg" alt="" class="vh rounded-circle" style="margin-left: 25vh;">
+                        
+                        <img src="./pictures/d-con8.jpg" alt="" class="vh rounded-circle" style="margin-left: 5vh;">
+                        
+                        <img src="./pictures/d-con9.jpg" alt="" class="vh rounded-circle" style="margin-left: 30vh;">
+
+                        <img src="./pictures/d-con10.jpg" alt="" class="vh rounded-circle" style="margin-left: 18vh;">
+                        
+                    </div>
+
+                </div>
+            </div>
+          </section>
+          <style>
+           .climb1 { border: none;
+            width: 30%;
+            padding: 0px;
+            background-color: #343a40;
+            border-radius: 20px;
+            color: white;
+          }
+
+            .climb1:hover {
+              color:#343a40;
+              background-color: white;
+            }
+
+            .climb2 {
+              border: none;
+              width: 30%;
+              padding: 0px;
+              background-color:white;
+              border-radius: 20px;
+              color:#343a40;
+            }
+
+            .climb2:hover {
+              color:white;
+              background-color:#343a40;
+            }
+
+            .lin1 {
+              color: white;
+            }
+            .lin1:hover {
+              background-color:#343a40;
+            }
+
+            .build {
+              font-size: 340%;
+            }
+          </style>
+          <section>
+            <div class="container mt-5" style="background-color: #ebe7e7; width: 80%;height:60vh;padding-top: 29px;">
+                <div class="row" style="gap: 40px;margin-left: 1%;">
+                    <div class="col-md-4 climb1">
+                      <div class="text-center">
+                        <img src="./pictures/freepik.jpg" alt="" width="80px" height="80px" style="padding-top: 10px;">
+                        </div>
+                        <p style="border: 1px solid none; margin-top: 10px;background-color: #ffd700;padding: 10px;font-size: 25px;" class="text-center">Expert Workers</p>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur, unde voluptas consectetur reiciendis doloremque, similique error, quaerat autem.</p>
+                        <button type="button" class="btn btn-lg rounded text-center lin1" style="margin-left:30%;padding-top: 2px;padding-bottom: 2px;margin-bottom: 10px;background-color: #ffd700;">Get Started</button>
+                    </div>
+
+                    <div class="col-md-4 climb2">
+                        <div class="text-center">
+                          <i class="bi bi-buildings build"></i>
+                        </div>
+                        <p style="border: 1px solid none;margin-top: 10px;background-color: #ffd700;padding: 10px;font-size: 25px;" class="text-center">Quality Work</p>
+                        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi et nesciunt tempore sed expedita dignissimos quae nostrum distinctio autem reprehenderit.</p>
+                        <button type="button" class="btn btn-lg rounded text-center" style="margin-left:30%;padding-top: 2px;padding-bottom: 2px;margin-bottom: 10px;background-color: #ffd700;">Get Started</button>
+                    </div>
+
+                    <div class="col-md-4 climb1">
+                        <div class="text-center">
+                          <i class="bi bi-headset build" aria-hidden="true"></i>
+                        </div>
+                        <p style="border: 1px solid none;margin-top: 10px;background-color: #ffd700;padding: 10px;font-size: 25px;" class="text-center">24/7 Support</p>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eius, facilis omnis exercitationem, ducimus id totam ratione numquam cupiditate dolor ad et</p>
+                        <button type="button" class="btn btn-lg rounded text-center lin1" style="margin-left:30%;padding-top: 2px;padding-bottom: 2px;margin-bottom: 10px;background-color: #ffd700;" >Get Started</button>
+                    </div>
+                </div>
+          </section>
+
+
+          <style>
+          .norr { background-color:#ebe7e7;
+                  padding-top: 5px;
+                  width: 210vh;
+                  padding-left: 30px;
+                  
+          }
+          </style>
+          <section>
+            <div class="container-fluid mt-5 norr">
+              <div class="container p-5">
+                <div class="row">
+                    <div class="col-8">
+                        <h1 style="width: 120%;">Ready to work with our company?</h1>
+                        <p style="width:120%;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur reprehenderit fuga corrupti autem illo dolorum temporibus.</p>
+                    </div>
+                        <div class="col-4 text-end mt-4" style="margin-left:-15vh;">
+                        <button type="button" class="btn btn-md rounded-circle text-center text-white" style="background-color: #ffd700;">Contact</button>
+                        </div>
+                    
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container mt-5">
+                <div class="row">
+                  <div class="d-flex">
+                  <div class="col-md-6" style="margin-left: 20px;">
+                    <h1>Contact Us</h1>
+                    <div class="row" style="gap: 20px;margin-left: 3px;">
+                    <input class="form-control form-control-lg" style="width: 35%;background-color: #ebe7e7;" type="text" placeholder="First name" aria-label=".form-control-lg example">
+                    <input class="form-control form-control-lg" style="width: 35%;background-color: #ebe7e7;" type="text" placeholder="Surname" aria-label=".form-control-lg example">
+                    </div>
+                    
+                    <div class="row mt-3" style="gap: 20px;margin-left: 3px;">
+                    <input class="form-control form-control-lg" style="width: 35%;background-color: #ebe7e7;" type="text" placeholder="Email" aria-label=".form-control-lg example">
+                    <input class="form-control form-control-lg" style="width: 35%;background-color: #ebe7e7;" type="text" placeholder="Number" aria-label=".form-control-lg example">
+                    </div>
+
+                    <div class="row mt-3" style="margin-left: 3px;">
+                    <textarea class="form-control" style="width: 73.5%;background-color: #ebe7e7;" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                    </div>
+
+                    <button type="button" class="btn mt-3" style="background-color: #ffd700;color: white;padding-left: 20px;padding-right: 20px;margin-left: 3px;">Send</button>
+                
+                  </div>
+
+                  <div class="col-md-6" style="margin-left:-7%;">
+                    <h1>Our Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63427.98700100971!2d3.3026002018924627!3d6.490098336411024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c0f7bc8de87%3A0x62650fcb3d2c8fb1!2sSurulere%20101241%2C%20Lagos!5e0!3m2!1sen!2sng!4v1727704310720!5m2!1sen!2sng" width="600" height="400" style="border-radius:20px;background-color: darkgray;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-12" style="margin-left:30px ;">
+                  <h1>ABchoice <span style="margin-left: 30%;font-size: 24px;">All social media Coverage</span></h1>
+                  <p style="width:70%">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, corporis velit assumenda in eaque vero sequi repudiandae distinctio exercitationem explicabo sed ipsum. Nemo nobis consequuntur voluptatum recusandae aperiam in adipisci.
+                  </p>
+                  <div style="display: flex;gap: 20px;color: #ffd700;font-size: 24px;">
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+
+                <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+          <script src="Bootstrap/js/bootstrap.js"></script>
+          <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

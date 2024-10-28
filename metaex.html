@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <Main>
+        <section>
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias voluptate, eveniet ipsum dolorem minima laborum, cum quis doloribus iure totam illum tenetur at possimus eaque, corrupti dicta soluta quidem!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam mollitia, quam, nam debitis esse nesciunt assumenda ex sint distinctio, illo voluptatum. Accusantium ipsa aut totam vel omnis velit non!
+            </p>
+            <ul>
+                <li>Web development</li>
+                <li>Web development</li>
+                <li>Web development</li>
+            </ul>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="">
+                    <div class="col-6">
+
+                    <h2>Our Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias voluptate, eveniet ipsum dolorem minima laborum, cum quis doloribus iure totam illum tenetur at possimus eaque, corrupti dicta soluta quidem!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam   mollitia, quam, nam debitis esse nesciunt assumenda ex sint distinctio, illo voluptatum. Accusantium ipsa aut totam vel omnis velit non!
+                    </p>
+                    <ul>
+                     <li>Web development</li>
+                     <li>Web development</li>
+                     <li>Web development</li>
+                    </ul>
+                   </div>
+
+
+                    <div class="col-6">
+
+                     <h2>Our Services</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias voluptate, eveniet ipsum dolorem minima laborum, cum quis doloribus iure totam illum tenetur at possimus eaque, corrupti dicta soluta quidem!
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam mollitia, quam, nam debitis esse nesciunt assumenda ex sint distinctio, illo voluptatum. Accusantium ipsa aut totam vel omnis velit non!
+                   </p>
+                   <ul>
+                    <li>Web development</li>
+                    <li>Web development</li>
+                    <li>Web development</li>
+                   </ul>
+                   </div>
+
+
+           </div>
+          </div>
+        </section>
+    </Main>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quaerat autem impedit provident cupiditate dolorum accusamus repellat, repudiandae sunt commodi perspiciatis. Alias numquam ea minus cupiditate tenetur nulla, corrupti nobis.
+                </div>
+
+                <div class="col-6">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quaerat autem impedit provident cupiditate dolorum accusamus repellat, repudiandae sunt commodi perspiciatis. Alias numquam ea minus cupiditate tenetur nulla, corrupti nobis.
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;2024 Responsive Website</p>
+    </footer>
+</body>
+</html>
+
+<style>
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding:1em;
+        text-align: center;
+    }
+
+    body {font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    }
+
+    header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav ul li {
+        margin-right:20px;
+    }
+
+    header nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: column;
+        padding: 2em;
+    }
+
+    section {
+        background-color: #fff;
+        padding: 1em;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        color:#333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        clear: both;
+    }
+
+    /* responsive styles */
+    @media (max-width:768px) {
+        main {
+            flex-direction:column;
+        }
+        section {
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (max-width:480px) {
+        header {
+            padding: 0.5em;
+        }
+        header nav ul li {
+            margin-right: 0;
+        }
+        main {
+            padding: 1em;
+        }
+        section {
+            margin-bottom: 5px;
+        }
+    }
+
+    /* column styles */
+    .col-6 {
+     flex-basis: 50%;
+     margin: 10px;
+    }
+
+    @media (max-width: 480px) {
+        .col-6 {
+            margin: 5px 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .col-6 {
+            flex-basis: 100%;
+            margin: 10px 0;
+        }
+    }
+
+
+
+    /* container styles */
+    .container {
+        max-width: 1200px;
+        margin:0 auto;
+        padding:2em;
+    }
+
+    /* row styles */ 
+    .row {
+        display: flex;
+        justify-content: center;
+    } 
+
+    @media (max-width: 480px) {
+        .row {
+            flex-wrap: wrap;
+            margin: 5px 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .row {
+            flex-wrap: wrap ;
+            margin: 10px 0;
+        }
+    }
+
+
+</style>

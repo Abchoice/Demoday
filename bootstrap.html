@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">ABchoice</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <div>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./pictures/lappy.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./pictures/images (1).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./pictures/download (2).jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+
+    </header>
+
+    <section>
+        <h2 class="text-lg-center pt-5 text-primary">Our Services
+        </h2>
+        <div class="gap-4 pt-4 justify-content-center flex-row d-flex rounded">
+        <div class="card" style="width: 18rem;">
+            <img src="./pictures/lappy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" style="margin-left:20px ;">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./pictures/lappy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" style="margin-left:20px ;">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./pictures/lappy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" style="margin-left:20px ;">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./pictures/lappy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary" style="margin-left:20px ;">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="container-fluid mt-4 bg-primary text-lg-center pt-5 pb-5 text-white">
+            <h1>ABchoice</h1>
+           <div class="container">
+          <div class="row">
+            <div class="col-sm-4 text-left bg-body-tertiary text-primary">
+              <h2><cite>Set Tables in Bootstrap</cite></h2>
+            </div>
+          </div>
+
+           <table class="table mt-4 table-responsive">
+              <thead>
+                <tr>
+                  <th class="text-primary">#</th>
+                  <th class="text-primary">S/N</th>
+                  <th class="text-primary">First Name</th>
+                  <th class="text-primary">Last Name</th>
+                  <th class="text-primary">Age</th>
+                  <th class="text-primary">Gender</th>
+                  <th class="text-primary">Occupation</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr class="table-success">
+                  <td>#</td>
+                  <td>1</td>
+                  <td>Pedro</td>
+                  <td>Porro</td>
+                  <td>24</td>
+                  <td>Male</td>
+                  <td>Footballer</td>
+                </tr>
+
+                 <tr class="table-warning">
+                  <td>#</td>
+                  <td>2</td>
+                  <td>Federal</td>
+                  <td>Alice</td>
+                  <td>25</td>
+                  <td>Female</td>
+                  <td>Tennis Player</td>
+                </tr>
+
+                <tr class="table-danger">
+                  <td>#</td>
+                  <td>3</td>
+                  <td>Alunmi</td>
+                  <td>Cathbert</td>
+                  <td>27</td>
+                  <td>Female</td>
+                  <td>Golfer</td>
+                </tr>
+                
+                <tr class="table-info">
+                  <td>#</td>
+                  <td>4</td>
+                  <td>Oscar</td>
+                  <td>Manson</td>
+                  <td>31</td>
+                  <td>Male</td>
+                  <td>Sprinter</td>
+                </tr>
+              </tbody>
+           </table>
+
+        </div>
+        </div>
+
+        <div class="bg-primary">
+          <div class="container d-flex gap-5 ">
+          <h1><img src="./pictures/images (3).jpg" alt="" class="img-thumbnail"></h1>
+          <h1><img src="./pictures/images (5).jpg" alt="" class="rounded"></h1>
+          <h1><img src="./comestics/team2.jpg" alt="" class="rounded-circle"></h1>
+          </div>
+        </div>
+
+    </section>
+
+    <div class="container text-center mt-4">
+      <div class="row">
+        <div class="col-6" style="background-color: red; color: white;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed sint voluptate dolorum dolore nesciunt. A obcaecati iste saepe. Minima debitis ad ratione tempore recusandae? Cumque eligendi consequuntur aliquid facere! Voluptates?</p>
+        </div>
+        <div class="col-6" style="background-color: blue; color: white;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed sint voluptate dolorum dolore nesciunt. A obcaecati iste saepe. Minima debitis ad ratione tempore recusandae? Cumque eligendi consequuntur aliquid facere! Voluptates?</p>
+        </div>
+        <div class="col" style="background-color: green; color: white;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed sint voluptate dolorum dolore nesciunt. A obcaecati iste saepe. Minima debitis ad ratione tempore recusandae? Cumque eligendi consequuntur aliquid facere! Voluptates?</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container pt-5 bg-info">
+      <div class="row">
+        <div class="text-start col-6">
+          <h2>My Lunch</h2>
+          <p>I think this Amala is nice</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea voluptate voluptatibus quibusdam modi inventore nulla aliquam dicta eveniet nesciunt. Ex nemo assumenda tempore, accusantium commodi ut dolorum expedita soluta neque!</p>
+        </div>
+        <div class="col-6 text-end ">
+          <img src="./pictures/busy.jpg" alt="" width="400" height="250" class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-5 bg-info">
+      <div class="row">
+        <div class="col-6 text-start">
+          <img src="./pictures/lappy.jpg" alt="" width="400" height="250" class="rounded-circle">
+        </div>
+        <div class="text-start col-6">
+          <h2>My Lunch</h2>
+          <p>I think this Amala is nice</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea voluptate voluptatibus quibusdam modi inventore nulla aliquam dicta eveniet nesciunt. Ex nemo assumenda tempore, accusantium commodi ut dolorum expedita soluta neque!</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
